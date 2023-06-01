@@ -66,3 +66,5 @@ echo -e "######### PHPMYADMIN Zugang #########" >> /root/phpmyadmin-data.txt
 echo -e "Link: http://"$ip"/phpmyadmin" >> /root/phpmyadmin-data.txt
 echo -e "User: admin" >> /root/phpmyadmin-data.txt
 echo -e "Passwort: $PASS" >> /root/phpmyadmin-data.txt
+
+echo 'Sie finden ihre PHPMYADMIN zugangsdaten in ihren FTP/SFTP zugang in /root'
